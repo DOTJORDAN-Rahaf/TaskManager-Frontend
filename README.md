@@ -1,16 +1,42 @@
-# React + Vite
+# Task Manager Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React + Vite frontend for a Task Manager application.
 
-Currently, two official plugins are available:
+The frontend is deployed on Vercel and connected to a Node.js/Express backend deployed on Render.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Live Demo
 
-## React Compiler
+Frontend: https://task-manager-frontend-xi-topaz.vercel.app/
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Backend API
 
-## Expanding the ESLint configuration
+Backend: https://taskmanager-backend-98x0.onrender.com
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Features
+
+- User registration
+- User login
+- Add new tasks
+- View all tasks
+- Mark tasks as completed
+- Delete tasks
+- Protected API requests using JWT token
+- Frontend deployment on Vercel
+- Backend connection with Render
+
+## Technologies Used
+
+- React
+- Vite
+- JavaScript
+- CSS
+- Fetch API
+- Vercel
+- Render
+
+## Environment Variable
+
+The frontend uses this environment variable to connect with the backend:
+
+```env
+VITE_API_URL=https://taskmanager-backend-98x0.onrender.com
